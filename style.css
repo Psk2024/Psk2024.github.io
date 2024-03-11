@@ -1,0 +1,150 @@
+body {
+  padding: 30px 0;
+  position: relative;
+}
+h1 {
+    color: #fefae0;
+    font-family: Amita;
+    margin: 20px auto;
+    width: 600px;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 10px double #bc6c25;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    border: 6px solid #fefae0;
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    transition-duration: 1s;
+}
+
+.gallery {
+  width: 600px;
+  margin: auto;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.img-c {
+  width: 200px;
+  height: 200px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-w {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform ease-in-out 300ms;
+  border: 3px solid #fefae0;
+}
+
+.img-w img {
+  display: none;
+}
+
+.img-c {
+  transition: width ease 300ms, height ease 250ms, left cubic-bezier(0.4, 0, 0.2, 1) 320ms, top cubic-bezier(0.4, 0, 0.2, 1) 320ms;
+}
+
+.img-c:hover .img-w {
+  transform: scale(1.08);
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+}
+
+.img-c.active {
+  width: 75% !important;
+  height: 75% !important;
+  position: absolute;
+  z-index: 2;
+}
+
+.img-c.postactive {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.img-c.active.positioned {
+  left: 50 !important;
+  top: 50 !important;
+  transition-delay: 50ms;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#vid {
+position: float;
+margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 15px;
+width: 400px;
+border: 3px solid #ECECEC;
+box-sizing: border-bold;
+}
+body {
+  margin: 0;
+}
+
+#balloon-container {
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  transition: opacity 1000ms;
+}
+
+.balloon {
+  height: 125px;
+  width: 105px;
+  border-radius: 75% 75% 70% 70%;
+  position: relative;
+}
+
+.balloon:before {
+  content: "";
+  height: 75px;
+  width: 1px;
+  padding: 1px;
+  background-color: #FDFD96;
+  display: block;
+  position: absolute;
+  top: 125px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.balloon:after {
+    content: "▲";
+    text-align: center;
+    display: block;
+    position: absolute;
+    color: inherit;
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@keyframes float {
+  from {transform: translateY(100vh);
+  opacity: 1;}
+  to {transform: translateY(-300vh);
+  opacity: 0;}
+}
