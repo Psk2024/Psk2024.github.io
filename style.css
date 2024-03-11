@@ -64,7 +64,7 @@ img {
 .img-c.active {
   width: 75% !important;
   height: 75% !important;
-  position: absolute;
+  position: centre;
   z-index: 2;
 }
 
