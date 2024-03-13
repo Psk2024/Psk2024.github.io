@@ -4,10 +4,10 @@ body {
 }
 h1 {
     color: #fefae0;
-    font-family: Amita;
+    font-family: gill Sans, sans-serif;
     margin: 20px auto;
-    width: 600px;
-    font-size: 3rem;
+    width: 900px;
+    font-size: 4rem;
     text-align: center;
     border-bottom: 10px double #bc6c25;
 }
