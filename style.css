@@ -2,7 +2,15 @@ body {
   padding: 30px 0;
   position: relative;
 }
-
+h1 {
+    color: #fefae0;
+    font-family: Amita;
+    margin: 20px auto;
+    width: 600px;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 10px double #bc6c25;
+}
 .gallery {
   width: 600px;
   margin: auto;
