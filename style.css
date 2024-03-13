@@ -13,21 +13,21 @@ h1 {
 }
 
 .container{
-  width: 600px;
+  width: 900px;
   margin: auto;
   border-radius: 3px;
   overflow: hidden;
 }
 .gallery {
-  width: 600px;
+  width: 900px;
   margin: auto;
   border-radius: 3px;
   overflow: hidden;
 }
 
 .img-c {
-  width: 200px;
-  height: 275px;
+  width: 300px;
+  height: 350px;
   float: left;
   position: relative;
   overflow: hidden;
@@ -58,7 +58,7 @@ h1 {
 
 .img-c.active {
   width: 75% !important;
-  height: 75% !important;
+  height: 100% !important;
   position: absolute;
   z-index: 2;
 }
