@@ -63,17 +63,14 @@ h1 {
   z-index: 2;
 }
 footer {
-  position: center;
-   left: 0;
-   bottom: 0;
-   width: 900px;
-   text-align: center;
-    background-color: #bc6c25;
+  background-color: #bc6c25;
     display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
+    width:900px;
+   
 }
 
 .img-c.postactive {
