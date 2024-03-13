@@ -63,7 +63,7 @@ h1 {
   z-index: 2;
 }
 footer {
-  position: fixed;
+  position: center;
    left: 0;
    bottom: 0;
    width: 900px;
