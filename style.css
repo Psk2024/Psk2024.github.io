@@ -11,6 +11,13 @@ h1 {
     text-align: center;
     border-bottom: 10px double #bc6c25;
 }
+
+.container{
+  width: 600px;
+  margin: auto;
+  border-radius: 3px;
+  overflow: hidden;
+}
 .gallery {
   width: 600px;
   margin: auto;
