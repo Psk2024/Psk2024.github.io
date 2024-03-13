@@ -12,7 +12,7 @@ body {
 
 .img-c {
   width: 200px;
-  height: 200px;
+  height: 275px;
   float: left;
   position: relative;
   overflow: hidden;
@@ -42,8 +42,8 @@ body {
 }
 
 .img-c.active {
-  width: 100% !important;
-  height: 100% !important;
+  width: 75% !important;
+  height: 75% !important;
   position: absolute;
   z-index: 2;
 }
