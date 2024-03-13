@@ -84,3 +84,10 @@ footer {
   top: 0 !important;
   transition-delay: 50ms;
 }
+.confetti{
+        max-width: 640px;
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #ddd;
+        user-select: none;
+    }    
