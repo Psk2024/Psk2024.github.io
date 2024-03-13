@@ -57,8 +57,8 @@ h1 {
 }
 
 .img-c.active {
-  width: 75% !important;
-  height: 100% !important;
+  width: 80% !important;
+  height: 90% !important;
   position: absolute;
   z-index: 2;
 }
